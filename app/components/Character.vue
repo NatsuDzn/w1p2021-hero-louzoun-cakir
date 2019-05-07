@@ -13,12 +13,6 @@
   </div>
 </template>
 
-<style>
-.big-header {
-  background-image: url("../assets/map.png")
-}
-</style>
-
 <script>
 export default {
   data() {
