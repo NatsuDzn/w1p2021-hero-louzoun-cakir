@@ -23,7 +23,7 @@ import data from "../../data.json";
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
-  background-image: url(../assets/WhaleIsland.jpg);
+  background-image: url(../assets/img/WhaleIsland.jpg);
   background-size: cover;
 }
 </style>

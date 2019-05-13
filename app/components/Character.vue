@@ -4,19 +4,19 @@
     <br>
     <div class="wrapper">
       <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/Gon.png">
+        <img class="sprites" src="../assets/img/sprites/Gon.png">
       </router-link>
       <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/Kirua.png">
+        <img class="sprites" src="../assets/img/sprites/Kirua.png">
       </router-link>
       <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/You.png">
+        <img class="sprites" src="../assets/img/sprites/You.png">
       </router-link>
       <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/Kurapika.png">
+        <img class="sprites" src="../assets/img/sprites/Kurapika.png">
       </router-link>
       <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/Leolio.png">
+        <img class="sprites" src="../assets/img/sprites/Leolio.png">
       </router-link>
     </div>
     <router-link class="button" :to="value">{{ title }}</router-link>

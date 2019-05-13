@@ -3,7 +3,7 @@
     <transition name="pane">
       <router-view/>
     </transition>
-    <img class="logo" src="../assets/logo.png">
+    <img class="logo" src="../assets/img/logo.png">
     <h1>{{ message }}</h1>
     <br>
     <router-link class="button" :to="value">{{ title }}</router-link>
