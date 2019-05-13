@@ -1,5 +1,5 @@
-@import 'reset';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import "reset";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
 
 $orange: #fa4002;
 
@@ -8,7 +8,7 @@ button,
 input,
 select,
 textarea {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .big-header {
@@ -41,11 +41,11 @@ textarea {
 }
 
 .sprites {
-    transform: scale(0.5);
+  transform: scale(0.5);
 
-    &:hover {
-      border: 9px solid white;
-    }
+  &:hover {
+    border: 9px solid white;
+  }
 }
 
 .intro {
@@ -58,7 +58,7 @@ textarea {
 .pane-leave-active,
 .pane-enter-active {
   &::after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -71,29 +71,29 @@ textarea {
   }
 }
 
- .pane-leave-active {
+.pane-leave-active {
+  animation: fake .5s;
+
+  &::after {
+    animation: slideLeave .5s;
+  }
+}
+
+.pane-enter-active {
   animation: fake 1s;
 
-   &::after {
-    animation: slideLeave 1s;
+  &::after {
+    animation: slideEnter .5s ease .5s;
   }
 }
 
- .pane-enter-active {
-  animation: fake 2s;
-
-   &::after {
-    animation: slideEnter 1s ease 1s;
-  }
-}
-
- @keyframes slideLeave {
+@keyframes slideLeave {
   to {
     transform: translateX(0);
   }
 }
 
- @keyframes slideEnter {
+@keyframes slideEnter {
   from {
     transform: translate(0);
   }

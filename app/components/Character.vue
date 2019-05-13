@@ -10,13 +10,13 @@
         <img class="sprites" src="../assets/sprites/Kirua.png">
       </router-link>
       <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/You.png">
+      </router-link>
+      <router-link to="/id1">
         <img class="sprites" src="../assets/sprites/Kurapika.png">
       </router-link>
       <router-link to="/id1">
         <img class="sprites" src="../assets/sprites/Leolio.png">
-      </router-link>
-      <router-link to="/id1">
-        <img class="sprites" src="../assets/sprites/You.png">
       </router-link>
     </div>
     <router-link class="button" :to="value">{{ title }}</router-link>
