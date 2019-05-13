@@ -9,9 +9,17 @@
     <router-link to="/game/1"><img class="sprites" src="../assets/sprites/Leolio.png"/></router-link>
     </div>
     <router-link class="button" to="/game/1">Choisir le chemin par défaut</router-link>
-    <router-link class="button" to="/">Home</router-link>
+    <router-link class="button" to="/">&#127968;Home</router-link>
   </div>
 </template>
+
+<style>
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+</style>
+
 
 <script>
 export default {

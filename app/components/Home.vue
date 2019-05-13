@@ -1,5 +1,8 @@
 <template>
   <div class="big-header">
+    <transition name="pane">
+        <router-view />
+    </transition>
     <img class="logo" src="../assets/logo.png">
     <h1>{{ message }}</h1>
     <br />

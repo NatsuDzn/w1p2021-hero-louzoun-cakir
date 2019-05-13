@@ -10,6 +10,6 @@ Vous aussi devenez un Hunter!</h1>
     <h1>{{ $route.params.id }}</h1>
     <br />
     <router-link class="button" to="/game/1">Suivant</router-link>
-    <router-link class="button" to="/">Home</router-link>
+    <router-link class="button" to="/">&#127968;Home</router-link>
   </div>
 </template>
