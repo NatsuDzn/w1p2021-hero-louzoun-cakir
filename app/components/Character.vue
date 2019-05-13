@@ -1,13 +1,23 @@
 <template>
   <div class="big-header">
     <h1>{{ message }}</h1>
-    <br />
+    <br>
     <div class="wrapper">
-    <router-link to="/id1"><img class="sprites" src="../assets/sprites/Gon.png"/></router-link>
-    <router-link to="/id1"><img class="sprites" src="../assets/sprites/Kirua.png"/></router-link>
-    <router-link to="/id1"><img class="sprites" src="../assets/sprites/Kurapika.png"/></router-link>
-    <router-link to="/id1"><img class="sprites" src="../assets/sprites/Leolio.png"/></router-link>
-    <router-link to="/id1"><img class="sprites" src="../assets/sprites/You.png"/></router-link>
+      <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/Gon.png">
+      </router-link>
+      <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/Kirua.png">
+      </router-link>
+      <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/Kurapika.png">
+      </router-link>
+      <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/Leolio.png">
+      </router-link>
+      <router-link to="/id1">
+        <img class="sprites" src="../assets/sprites/You.png">
+      </router-link>
     </div>
     <router-link class="button" :to="value">{{ title }}</router-link>
     <router-link class="button" :to="home">{{ backtitle }}</router-link>
@@ -15,15 +25,15 @@
 </template>
 
 <style>
-  h1 {
-    font-size: 32px;
-    font-weight: bold;
-  }
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
 </style>
 
 
 <script>
-import data from '../../data.json';
+import data from "../../data.json";
 
 export default {
   data() {

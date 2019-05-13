@@ -1,17 +1,17 @@
 <template>
   <div class="big-header">
     <transition name="pane">
-        <router-view />
+      <router-view/>
     </transition>
     <img class="logo" src="../assets/logo.png">
     <h1>{{ message }}</h1>
-    <br />
+    <br>
     <router-link class="button" :to="value">{{ title }}</router-link>
   </div>
 </template>
 
 <script>
-import data from '../../data.json';
+import data from "../../data.json";
 
 export default {
   data() {
