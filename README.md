@@ -1,11 +1,11 @@
 # Le site dont vous êtes le héros
 
-URL du site : https://w1p2021-hero-louzoun-monteferrario.netlify.com
+URL du site : https://w1p2021-hero-louzoun-cakir.netlify.com/
 
 ### Groupe
 
 - Nathanael Louzoun
-- Quentin Monteferrario
+- Rami Cakir 
 
 ## Prologue
 
