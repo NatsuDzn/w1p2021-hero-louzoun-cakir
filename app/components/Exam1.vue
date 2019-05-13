@@ -1,5 +1,5 @@
 <template>
-  <div class="big-header">
+  <div class="exam1">
     <h1 class="intro">Animaux monstrueux, espèces rares…<br>
 Richesses enfouies, trésors cachés…<br>
 Monde des démons, terres inexplorées…<br>
@@ -15,3 +15,20 @@ Vous aussi devenez un Hunter!</h1>
 <script>
 import data from '../../data.json';
 </script>
+
+<style>
+.exam1 {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  color: white;
+  background-image: url(../assets/WhaleIsland.jpg);
+}
+</style>
+
+

@@ -6,6 +6,8 @@ import Character from './components/Character.vue';
 import GameIntro from './components/GameIntro.vue';
 import Win from './components/Win.vue';
 import Lose from './components/Lose.vue';
+import LandArrive from './components/LandArrive.vue';
+import Exam1 from './components/Exam1.vue';
 
 Vue.use(Router);
 
@@ -24,9 +26,19 @@ const router = new Router({
       component: Character,
     },
     {
-      path: '/game/:id',
+      path: '/id1',
       name: 'gameintro',
       component: GameIntro,
+    },
+    {
+      path: '/id2',
+      name: 'LandArrive',
+      component: LandArrive,
+    },
+    {
+      path: '/id3',
+      name: 'Exam1',
+      component: Exam1,
     },
     {
       path: '/win',

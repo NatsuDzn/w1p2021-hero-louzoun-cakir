@@ -6,15 +6,19 @@
     <img class="logo" src="../assets/logo.png">
     <h1>{{ message }}</h1>
     <br />
-    <router-link class="button" to="/character">Choisir un personnage</router-link>
+    <router-link class="button" :to="value">{{ title }}</router-link>
   </div>
 </template>
 
 <script>
+import data from '../../data.json';
+
 export default {
   data() {
     return {
-      message: 'Bienvenue sur le jeu'
+      message: data.home.title,
+      title: data.home.button,
+      value: data.home.url
     };
   }
 };
