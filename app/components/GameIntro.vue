@@ -1,6 +1,6 @@
 <template>
   <div class="big-header">
-    <h1 class="intro1" :to="title">{{ title }}</h1>
+    <h1 v-html="title" class="intro1"></h1>
     <div class="buttonwrapper">
     <router-link class="button" :to="home">{{ backtitle }}</router-link>
     <router-link class="button" :to="value">{{ next }}</router-link>
