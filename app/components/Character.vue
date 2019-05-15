@@ -19,8 +19,9 @@
         <img class="sprites" src="../assets/img/sprites/Leolio.png">
       </router-link>
     </div>
-    <router-link class="button" :to="value">{{ title }}</router-link>
+    <div class="buttonwrapper">
     <router-link class="button" :to="home">{{ backtitle }}</router-link>
+    <router-link class="button" :to="value">{{ title }}</router-link>
   </div>
 </template>
 
@@ -38,6 +39,7 @@ import data from "../../data.json";
 export default {
   data() {
     return {
+      
       message: data.character.title,
       title: data.character.button,
       value: data.character.url,

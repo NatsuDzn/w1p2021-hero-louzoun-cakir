@@ -44,6 +44,12 @@
     "url": "/id1"
   },
 
+  "intro": {
+    "text": "Animaux monstrueux, espèces rares…\nRichesses enfouies, trésors cachés…\nMonde des démons, terres inexplorées…\nLe mot “INCONNU” dégage quelque chose de magique…\nEt certains hommes sont attirés par cette force.\nOn les appelles les “hunters”.\nVous aussi devenez un Hunter!",
+    "next": "Suivant",
+    "url": "/id2"
+  },
+
   "back": {
     "url": "/",
     "backtitle": "Home"

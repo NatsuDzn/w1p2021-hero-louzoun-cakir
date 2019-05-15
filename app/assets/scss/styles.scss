@@ -24,6 +24,7 @@ textarea {
   color: white;
 }
 
+
 .button {
   color: $orange;
   text-decoration: none;
@@ -32,12 +33,18 @@ textarea {
   border-radius: 5px;
   border: none;
   margin-top: 25px;
+  margin-right: 25px;
+}
+
+.buttonwrapper {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
 }
 
 .wrapper {
   display: flex;
-  flex-flow: row nowrap;
-  align-content: center;
+  flex-direction: row;
 }
 
 .sprites {
@@ -54,6 +61,15 @@ textarea {
   text-align: center;
   -webkit-text-stroke: 1px black;
 }
+
+.intro1 {
+  font-size: 36px;
+  line-height: 55px;
+  text-align: center;
+  width: 65%;
+  -webkit-text-stroke: 1px black;
+}
+
 
 .pane-leave-active,
 .pane-enter-active {

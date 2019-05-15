@@ -5,8 +5,10 @@
       <br>où se passe l'examen hunter
       <br>Vous êtes arrivé mais qu'est-ce que vous réserve cette ile ?
     </h1>
-    <router-link class="button" to="/id4">Suivant</router-link>
+    <div class="buttonwrapper">
     <router-link class="button" to="/">&#127968;Home</router-link>
+    <router-link class="button" to="/id4">Suivant</router-link>
+    </div>
   </div>
 </template>
 
