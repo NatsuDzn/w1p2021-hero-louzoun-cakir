@@ -1,19 +1,30 @@
 <template>
   <div class="LandArrive">
-    <h1 class="intro">
-      Vous vous apprêtez à prendre le bateau pour arriver sur la fameuse ile
-      <br>où se passe l'examen hunter
-      <br>Vous êtes arrivé mais qu'est-ce que vous réserve cette ile ?
-    </h1>
+    <h1 v-html="title" class="intro"></h1>
     <div class="buttonwrapper">
-    <router-link class="button" to="/">&#127968;Home</router-link>
-    <router-link class="button" to="/id4">Suivant</router-link>
+    <router-link class="button" :to="home">{{ backtitle }}</router-link>
+    <router-link class="button" :to="value">{{ next }}</router-link>
     </div>
   </div>
 </template>
 
 <script>
 import data from "../../data.json";
+
+export default {
+  data() {
+    return {
+
+      title: data.land.text,
+      next: data.land.next,
+      value: data.land.url,
+
+      // Retour
+      home: data.back.url,
+      backtitle: data.back.backtitle
+    };
+  }
+};
 </script>
 
 <style>

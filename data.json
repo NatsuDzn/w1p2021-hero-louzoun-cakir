@@ -50,6 +50,12 @@
     "url": "/id2"
   },
 
+  "land": {
+    "text": "Vous vous apprêtez à prendre le bateau pour arriver sur la fameuse ile<br>où se passe l'examen hunter<br>Vous êtes arrivé mais qu'est-ce que vous réserve cette ile ?",
+    "next": "Suivant",
+    "url": "/id3"
+  },
+
   "back": {
     "url": "/",
     "backtitle": "Home"
