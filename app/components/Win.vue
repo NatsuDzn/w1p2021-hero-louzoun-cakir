@@ -1,21 +1,6 @@
 <template>
-  <div class="big-header">
-    <h1>{{ message }}</h1>
-    <br />
-    <div class="buttonwrapper">
-    <router-link class="button" to="/">Go to Page</router-link>
-    </div>
-  </div>
+  <div class>Vous êtes maintenant un Hunter vous recevrez votre carte prochainement</div>
 </template>
-
 <script>
-import data from '../../data.json';
-
-export default {
-  data() {
-    return {
-      message: 'tu as win'
-    };
-  }
-};
+export default {};
 </script>

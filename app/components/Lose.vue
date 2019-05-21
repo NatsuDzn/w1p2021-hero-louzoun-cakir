@@ -1,21 +1,11 @@
 <template>
-  <div class="big-header">
-    <h1>{{ message }}</h1>
-    <br>
-    <div class="buttonwrapper">
-    <router-link class="button" to="/">Go to Page</router-link>
-    </div>
+  <div class="lose">
+    <h1 class="lose__title">Vous avez échoué à l'examen</h1>
+    <router-link to="/" class="lose__link">
+      <span @click="reset">Retenter de devenir un hunter</span>
+    </router-link>
   </div>
 </template>
-
 <script>
-import data from "../../data.json";
 
-export default {
-  data() {
-    return {
-      message: "tu as loose"
-    };
-  }
-};
 </script>

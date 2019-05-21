@@ -1,74 +1,22 @@
-@import "reset";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import 'layout/base';
+@import 'pages/home';
+@import 'pages/characters';
+@import 'pages/game';
+@import 'pages/lose';
 
-$orange: #fa4002;
+body {
+  user-select: none;
+}
 
 body,
 button,
 input,
 select,
 textarea {
-  font-family: "Roboto";
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
-.big-header {
-  background-color: $orange;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-
-  color: white;
-}
-
-
-.button {
-  color: $orange;
-  text-decoration: none;
-  background: white;
-  padding: 15px;
-  border-radius: 5px;
-  border: none;
-  margin-top: 25px;
-  margin-right: 25px;
-}
-
-.buttonwrapper {
-  display: flex;
-  flex-direction: row;
-  margin-right: 15px;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: row;
-}
-
-.sprites {
-  transform: scale(0.5);
-
-  &:hover {
-    border: 9px solid white;
-  }
-}
-
-.intro {
-  font-size: 36px;
-  line-height: 55px;
-  text-align: center;
-  -webkit-text-stroke: 1px black;
-}
-
-.intro1 {
-  font-size: 36px;
-  line-height: 55px;
-  text-align: center;
-  -webkit-text-stroke: 1px black;
-}
-
 
 .pane-leave-active,
 .pane-enter-active {

@@ -1,24 +1,16 @@
 <template>
-  <div class="big-header">
-    <transition name="pane">
-      <router-view/>
-    </transition>
-    <img class="logo" src="../assets/img/logo.png">
-    <h1>{{ message }}</h1>
-    <br>
-    <router-link class="button" :to="value">{{ title }}</router-link>
+  <div class="home">
+    <audio src="../assets/audios/home.mp3" autoplay loop></audio>
+    <h1 class="home__text">{{ message }}</h1>
+    <router-link class="home__link" to="/game/1">Jouer</router-link>
   </div>
 </template>
 
 <script>
-import data from "../../data.json";
-
 export default {
   data() {
     return {
-      message: data.home.title,
-      title: data.home.button,
-      value: data.home.url
+      message: "Bienvenue sur le jeu"
     };
   }
 };
