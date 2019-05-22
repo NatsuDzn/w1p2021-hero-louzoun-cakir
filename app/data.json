@@ -15,7 +15,7 @@
       {
         "id": 2,
         "title": "Vous arrivez sur l'ile",
-        "background": "../background.jpg",
+        "background": "../images/background.jpg",
         "description": "Vous vous apprêtez à prendre le bateau pour arriver sur la fameuse ile<br>où se passe l'examen hunter<br>Vous êtes arrivé mais qu'est-ce que vous réserve cette ile ?",
         "actions": [
           {
@@ -31,7 +31,7 @@
       {
         "id": 3,
         "title": "Une question théorique",
-        "background": "../exam0.jpg",
+        "background": "../images/exam0.jpg",
         "description": "Vous ne connaisez même pas encore le lieu de l'examen qu'une vieille dame qui semble être une examinatrice vous pose une question, si vous répondez juste vous allez pouvoir continuer : Votre fille et votre fils sont enlevés. Lequel choisissez vous de sauvez ?",
         "actions": [
           {
@@ -51,7 +51,7 @@
       {
         "id": 4,
         "title": "Une bonne réponse pas évidente",
-        "background": "../exam0.jpg",
+        "background": "../images/exam0.jpg",
         "description": "Vous avez répondu correctement à la question qui était le silence car il n'existe aucune réponse correcte à cette question. Vous pouvez maintenant continuer votre route",
         "actions": [
           {
@@ -63,7 +63,7 @@
       {
         "id": 5,
         "title": "Qui sont ils ?",
-        "background": "../monstres-aide.jpg",
+        "background": "../images/monstres-aide.jpg",
         "description": "Sur votre chemin vous croisez un homme qui vous dis que sa femme a été emporté par des monstres, vous avez aperçu le monstre que décidez vous de faire ?",
         "actions": [
           {
@@ -83,7 +83,7 @@
       {
         "id": 6,
         "title": "Le monstre vous attaque",
-        "background": "../monstres-attack.jpg",
+        "background": "../images/monstres-attack.jpg",
         "description": "Il s'avère que le monstre est plus fort que vous",
         "death": "Il vous attaque, et prends la fuite",
         "actions": [
@@ -96,7 +96,7 @@
       {
         "id": 7,
         "title": "Le monstre est démasquer",
-        "background": "../monstres-habitants.jpg",
+        "background": "../images/monstres-habitants.jpg",
         "description": "Il s'avère que le monstre était complice avec le couple, vous avez réussis leurs tests et ils vous donnent le lieu de l'examen",
         "actions": [
           {
@@ -108,7 +108,7 @@
       {
         "id": 8,
         "title": "Le lieu de l'examen",
-        "background": "../exam-place.jpg",
+        "background": "../images/exam-place.jpg",
         "description": "Vous arrivez vers une restaurant où vous rentrez puis prenez un ascensceur qui vous amène vers ce qui semble être un buker où il y'a une centaine de personne...",
         "actions": [
           {
@@ -124,7 +124,7 @@
       {
         "id": 9,
         "title": "Mais qui est ce type ?!",
-        "background": "../weird-dude.jpg",
+        "background": "../images/weird-dude.jpg",
         "description": "Après avoir marché deux trois minutes, une personne semblant bien aimaible vous propose une boisson pour vous rafraîchir, que faire ?",
         "actions": [
           {
@@ -140,7 +140,7 @@
       {
         "id": 10,
         "title": "Vous avez mal au ventre",
-        "background": "../weird-dude.jpg",
+        "background": "../images/weird-dude.jpg",
         "description": "Sa boisson était remplis de laxatif, vous avez mal au ventre et vous ratez la première épreuve",
         "actions": [
           {
@@ -152,7 +152,7 @@
       {
         "id": 11,
         "title": "Vous êtes malin !",
-        "background": "../weird-looser.jpg",
+        "background": "../images/weird-looser.jpg",
         "description": "Vous n'avez pas pris sa boisson, sage décision car il y'avait introduit des laxatifs afin que vous ratiez l'épreuve",
         "actions": [
           {
@@ -164,7 +164,7 @@
       {
         "id": 12,
         "title": "La première épreuve va commencer !",
-        "background": "../exam1.jpg",
+        "background": "../images/exam1.jpg",
         "description": "Un homme assez grand et maigre s'approche il s'agit de M. Satotsu et la première épreuve va commencer, elle consiste a monté des escaliers...",
         "actions": [
           {
@@ -180,7 +180,7 @@
       {
         "id": 13,
         "title": "Cela fait maintenant quelques kilomètres...",
-        "background": "../exam1.jpg",
+        "background": "../images/exam1.jpg",
         "description": "Vous montez les escaliers qui semblent être sans fin,les gens autours de vous abandonnent déjà, que décidez vous de faire ?",
         "actions": [
           {
@@ -196,7 +196,7 @@
       {
         "id": 14,
         "title": "Enfin ?",
-        "background": "../exam1.jpg",
+        "background": "../images/exam1.jpg",
         "description": "Après plusieurs kilomètres supplémentaires vous apercevez enfin une lumière, vous arrivez dans la foret de Biska où aura lieu la 2eme épreuve",
         "actions": [
           {
@@ -212,7 +212,7 @@
       {
         "id": 15,
         "title": "La 2eme épreuve",
-        "background": "../exam2.jpg",
+        "background": "../images/exam2.jpg",
         "description": "Cette épreuve est divisée en deux, avec les hunters Menchi et Buhara, la première partie consistait à faire du rôti de porc grillé et la seconde à faire des sushis pour Menchi",
         "actions": [
           {
@@ -228,7 +228,7 @@
       {
         "id": 16,
         "title": "Première partie de l'épreuve",
-        "background": "../exam2.jpg",
+        "background": "../images/exam2.jpg",
         "description": "Comment décidez vous de cuire le roti de porc ?",
         "actions": [
           {
@@ -248,7 +248,7 @@
       {
         "id": 17,
         "title": "La cuisson ne lui plait pas",
-        "background": "../buhara-lose.jpg",
+        "background": "../images/buhara-lose.jpg",
         "description": "Malheureusement ce type de cuisson ne lui plait pas",
         "actions": [
           {
@@ -260,7 +260,7 @@
       {
         "id": 18,
         "title": "Bien joué",
-        "background": "../exam2.jpg",
+        "background": "../images/exam2.jpg",
         "description": "Ce type de cuisson lui plait vous pouvez continuer vers la seconde partie de l'épreuve",
         "actions": [
           {
@@ -272,7 +272,7 @@
       {
         "id": 19,
         "title": "Seconde partie de l'épreuve",
-        "background": "../exam2-part2.jpg",
+        "background": "../images/exam2-part2.jpg",
         "description": "Comment décidez vous de préparer les sushis",
         "actions": [
           {
@@ -292,7 +292,7 @@
       {
         "id": 20,
         "title": "Sérieusement ?",
-        "background": "../menchi.jpg",
+        "background": "../images/menchi.jpg",
         "description": "Peu importe ce que vous faites Menchi n'est pas satisfaite, le président de l'examen intervient afin de crée une autre épreuve qui consiste à chercher des oeufs d'un monstre dans le creux d'une falaise.",
         "actions": [
           {
@@ -308,7 +308,7 @@
       {
         "id": 21,
         "title": "...",
-        "background": "../exam2-part3.jpg",
+        "background": "../images/exam2-part3.jpg",
         "description": "Comme vous avez été patient vous avez pu comprendre comment remonter du creux en récupérant l'oeuf, vous pouvez accéder à la 3eme épreuve",
         "actions": [
           {
@@ -320,7 +320,7 @@
       {
         "id": 22,
         "title": "Troisième épreuve",
-        "background": "../exam3.jpg",
+        "background": "../images/exam3.jpg",
         "description": "La tour aux astuces, le but est d'arriver vivant en bas de la tour dans un délai de 72 heures. Remplie de pièges, quizz et de prisonniers chargé de faire perdre un maximum de temps aux participants en échange d'une année de remise de peine contre une heure volée aux participants.",
         "actions": [
           {
@@ -336,7 +336,7 @@
       {
         "id": 23,
         "title": "Une formalitée ...",
-        "background": "../exam3.jpg",
+        "background": "../images/exam3.jpg",
         "description": "Les prisonniers étant une formalitée pour vous, vous vous retrouvez dans une salle sans aucune sortie à quelques minutes de la fin de l'examen, qu'allez vous faire ?",
         "actions": [
           {
@@ -352,7 +352,7 @@
       {
         "id": 24,
         "title": "Esprit shonen",
-        "background": "../wall.jpg",
+        "background": "../images/wall.jpg",
         "description": "Vous arrivez à l'avance à la fin de l'épreuve, on vous indique que vous avez rendez vous à l'ile Zebiru pour la 4eme épreuve",
         "actions": [
           {
@@ -364,7 +364,7 @@
       {
         "id": 25,
         "title": "L'île Zebiru",
-        "background": "../exam4.jpg",
+        "background": "../images/exam4.jpg",
         "description": "Cette épreuve consiste a attrapé le badge d'une personne qui vous est assigné, il n'y a aucune règles",
         "actions": [
           {
@@ -380,7 +380,7 @@
       {
         "id": 26,
         "title": "Mauvaise stratégie",
-        "background": "../bad-choice-exam4.jpg",
+        "background": "../images/bad-choice-exam4.jpg",
         "description": "Cette stratégie n'est pas la bonne, les participants encore présent sont aussi fort que vous ...",
         "actions": [
           {
@@ -392,7 +392,7 @@
       {
         "id": 27,
         "title": "Un ennemi ?!",
-        "background": "../choice-exam4.jpg",
+        "background": "../images/choice-exam4.jpg",
         "description": "Vous voyez un ennemie au loin que décidez vous de faire ?",
         "actions": [
           {
@@ -408,7 +408,7 @@
       {
         "id": 28,
         "title": "Sage décision",
-        "background": "../best-choice.jpg",
+        "background": "../images/best-choice.jpg",
         "description": "A ce stade de l'examen vous ne pouvez plus vous permettre de prendre de risque, vous avez réussis à attraper le badge de votre ennemie",
         "actions": [
           {
@@ -420,7 +420,7 @@
       {
         "id": 29,
         "title": "Epreuve finale",
-        "background": "../exam5.jpg",
+        "background": "../images/exam5.jpg",
         "description": "Vous faites maintenant partis des 9 derniers participants et vous allez connaitre le lieu et les règles de la dernière épreuve",
         "actions": [
           {
@@ -432,7 +432,7 @@
       {
         "id": 30,
         "title": "Epreuve finale",
-        "background": "../exam5.jpg",
+        "background": "../images/exam5.jpg",
         "description": "La dernière épreuve est un tournoi, vous devez affronter les participants, pour gagner vous devez forcer l'adversaire à abandonner, mais le tuer vous disqualifie",
         "actions": [
           {
@@ -444,7 +444,7 @@
       {
         "id": 31,
         "title": "Que faire ?",
-        "background": "../exam5-part2.jpg",
+        "background": "../images/exam5-part2.jpg",
         "description": "Votre adversaire ne semble pas être commode...",
         "actions": [
           {
@@ -456,7 +456,7 @@
       {
         "id": 32,
         "title": "Que faire ?",
-        "background": "../exam5-part3.jpg",
+        "background": "../images/exam5-part3.jpg",
         "description": "Votre adversaire est vraiment pas commode... Il résiste aux coups",
         "actions": [
           {
@@ -472,7 +472,7 @@
       {
         "id": 33,
         "title": "Que faire ?",
-        "background": "../exam5-part3.jpg",
+        "background": "../images/exam5-part3.jpg",
         "description": "Votre adversaire est vraiment pas commode... Il résiste aux coups",
         "actions": [
           {
