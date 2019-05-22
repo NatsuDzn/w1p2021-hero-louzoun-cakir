@@ -14,9 +14,27 @@
   }
 
   &__title {
-    font-size: 40px;
-    font-weight: bold;
+    background-color: #fa4002;
+    padding: 15px;
+    font-size: 48px;
+    font-weight: bolder;
     text-transform: uppercase;
+
+    &:before {
+      content: 'X';
+      text-transform: lowercase;
+      font-size: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    &:after {
+      content: 'X';
+      text-transform: lowercase;
+      font-size: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 
   &__content {
