@@ -27,7 +27,7 @@
 <script>
 // Import
 import data from "../data.json";
-import stepCountService from "../services/CountService";
+import CountService from "../services/CountService";
 
 export default {
   data: function() {

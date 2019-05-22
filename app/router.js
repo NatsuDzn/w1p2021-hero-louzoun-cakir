@@ -6,7 +6,7 @@ import Game from './components/Game.vue';
 import Win from './components/Win.vue';
 import Lose from './components/Lose.vue';
 import Characters from './components/Characters.vue';
-
+import Intro from './components/Intro.vue';
 
 Vue.use(Router);
 
@@ -15,14 +15,19 @@ const router = new Router({
   linkActiveClass: 'is-active',
   routes: [
     {
+      path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
       path: '/characters',
       name: 'characters',
       component: Characters
     },
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path: '/intro',
+      name: 'intro',
+      component: Intro
     },
     {
       path: '/game/:id',

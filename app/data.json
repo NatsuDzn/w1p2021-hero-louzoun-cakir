@@ -1,9 +1,10 @@
 {
 "steps": [
       {
-        "id": 1,
+        "id": "1",
         "title": "Vous aussi devenez un hunter",
         "background": "",
+        "video": "../images/video/intro.mp4",
         "description": "Animaux monstrueux, espèces rares…<br/>Richesses enfouies, trésors cachés…<br/>Monde des démons, terres inexplorées…<br/>Le mot “INCONNU” dégage quelque chose de magique…<br/>Et certains hommes sont attirés par cette force.<br/>On les appelles les “hunters”.<br/>Vous aussi devenez un Hunter!",
         "actions": [
           {
@@ -145,7 +146,7 @@
         "actions": [
           {
             "label": "Recommencer",
-            "to": 1
+            "to": 9
           }
         ]
       },
