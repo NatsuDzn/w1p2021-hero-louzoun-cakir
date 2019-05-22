@@ -1,7 +1,7 @@
 {
 "steps": [
       {
-        "id": "1",
+        "id": 1,
         "title": "Vous aussi devenez un hunter",
         "background": "",
         "video": "../images/video/intro.mp4",
@@ -201,12 +201,12 @@
         "description": "Après plusieurs kilomètres supplémentaires vous apercevez enfin une lumière, vous arrivez dans la foret de Biska où aura lieu la 2eme épreuve",
         "actions": [
           {
-            "label": "Vous êtes mort de fatigue vos jambes ne peuvent plus bouger",
-            "to": 1
-          },
-          {
             "label": "En savoir plus sur la seconde épreuve",
             "to": 15
+          },
+          {
+            "label": "Vous êtes mort de fatigue vos jambes ne peuvent plus bouger",
+            "to": 1
           }
         ]
       },
@@ -297,12 +297,12 @@
         "description": "Peu importe ce que vous faites Menchi n'est pas satisfaite, le président de l'examen intervient afin de crée une autre épreuve qui consiste à chercher des oeufs d'un monstre dans le creux d'une falaise.",
         "actions": [
           {
-            "label": "Sauter",
-            "to": 1
-          },
-          {
             "label": "...",
             "to": 21
+          },
+          {
+            "label": "Sauter",
+            "to": 1
           }
         ]
       },
@@ -341,12 +341,12 @@
         "description": "Les prisonniers étant une formalitée pour vous, vous vous retrouvez dans une salle sans aucune sortie à quelques minutes de la fin de l'examen, qu'allez vous faire ?",
         "actions": [
           {
-            "label": "Vous trouvez un petit détail dans un coin de la salle",
-            "to": 1
-          },
-          {
             "label": "Vous créez votre propre chemin en détruisant le mur",
             "to": 24
+          },
+          {
+            "label": "Vous trouvez un petit détail dans un coin de la salle",
+            "to": 1
           }
         ]
       },
@@ -461,11 +461,11 @@
         "description": "Votre adversaire est vraiment pas commode... Il résiste aux coups",
         "actions": [
           {
-            "label": "L'attaquer en forçant à l'abandonner",
+            "label": "Mettre un peu plus de force",
             "to": 33
           },
           {
-            "label": "Mettre un peu plus de force",
+            "label": "L'attaquer en forçant à l'abandonner",
             "to": 33
           }
         ]
@@ -477,12 +477,12 @@
         "description": "Votre adversaire est vraiment pas commode... Il résiste aux coups",
         "actions": [
           {
-            "label": "Etre aussi têtu que lui",
-            "to": "/win"
-          },
-          {
             "label": "En finir avec lui !",
             "to": "/lose"
+          },
+          {
+            "label": "Etre aussi têtu que lui",
+            "to": "/win"
           }
         ]
       }

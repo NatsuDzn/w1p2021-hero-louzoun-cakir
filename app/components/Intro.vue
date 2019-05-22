@@ -6,7 +6,7 @@
 
 D'après les statistiques, un sur 10000 candidats arrive jusqu'au premier tour, et seulement un hunter tous les trois ans réussit du premier coup.</p>
 <div class="intro__list">
-<router-link class="intro__nextstep" to="/characters">Participer à l'examen</router-link>
+<router-link class="intro__nextstep" to="/game/2">Participer à l'examen</router-link>
 </div>
 </div>
 <video autoplay loop class="game__video">
