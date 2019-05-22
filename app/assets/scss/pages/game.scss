@@ -12,7 +12,7 @@
     bottom: 0;
     width: 100vw;
     z-index: -1;
-    }
+  }
 
   &__image {
     width: 100vw;
@@ -29,7 +29,7 @@
     text-transform: uppercase;
 
     &:before {
-      content: 'X';
+      content: "X";
       text-transform: lowercase;
       font-size: 40px;
       padding-left: 15px;
@@ -37,7 +37,7 @@
     }
 
     &:after {
-      content: 'X';
+      content: "X";
       text-transform: lowercase;
       font-size: 40px;
       padding-left: 15px;
@@ -91,7 +91,6 @@
     &:hover {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       transform: scale(0.9);
-
 
       &:before {
         content: "<";

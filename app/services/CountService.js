@@ -1,4 +1,4 @@
-class StepCountService {
+class CountService {
   constructor() {
     this.stepCount = localStorage.getItem('step') || 'error';
   }
@@ -11,4 +11,4 @@ class StepCountService {
   }
 }
 
-module.exports = new StepCountService();
+module.exports = new CountService();

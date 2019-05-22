@@ -6,8 +6,5 @@
     <router-link to="/" class="win__link">
       <span @click="reset">Revenir à l'écran d'accueil</span>
     </router-link>
-
-
   </div>
 </template>
-
