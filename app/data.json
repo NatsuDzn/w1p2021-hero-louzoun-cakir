@@ -1,19 +1,5 @@
 {
-  "characters": [
-    {
-      "name": "Kirua",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum voluptas repudiandae, minus unde, ullam aliquid quasi officiis mollitia laborum blanditiis numquam! Debitis voluptate, nihil aliquid fugiat voluptates voluptatum sapiente cumque."
-    },
-    {
-      "name": "Gon",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum voluptas repudiandae, minus unde, ullam aliquid quasi officiis mollitia laborum blanditiis numquam! Debitis voluptate, nihil aliquid fugiat voluptates voluptatum sapiente cumque."
-    },
-    {
-      "name": "VOUS",
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum voluptas repudiandae, minus unde, ullam aliquid quasi officiis mollitia laborum blanditiis numquam! Debitis voluptate, nihil aliquid fugiat voluptates voluptatum sapiente cumque."
-    }
-  ],
-    "steps": [
+"steps": [
       {
         "id": 1,
         "title": "Vous aussi devenez un hunter",

@@ -5,6 +5,8 @@ import Home from './components/Home.vue';
 import Game from './components/Game.vue';
 import Win from './components/Win.vue';
 import Lose from './components/Lose.vue';
+import Characters from './components/Characters.vue';
+
 
 Vue.use(Router);
 
@@ -12,6 +14,11 @@ const router = new Router({
   mode: 'history',
   linkActiveClass: 'is-active',
   routes: [
+    {
+      path: '/characters',
+      name: 'characters',
+      component: Characters
+    },
     {
       path: '/',
       name: 'home',

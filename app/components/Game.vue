@@ -1,6 +1,6 @@
 <template>
   <div class="game">
- <img src="/assets/img/background.jpg" :alt="step.background" class="game__image">
+ <img src="/assets/images/background.jpg" :alt="step.background" class="game__image">
     <h1 v-html="step.title" class="game__title">{{step.title}}</h1>
     
     <div class="game__content">
