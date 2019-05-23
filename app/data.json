@@ -217,12 +217,12 @@
         },
         {
           "label": "Quoi ? c'est un examen de cuisine ?",
-          "to": 15.1
+          "to": 34
         }
       ]
     },
     {
-      "id": 15.1,
+      "id": 34,
       "title": "A quoi pensez vous ?",
       "background": "../images/exam2-part2.jpg",
       "description": "Un hunter ne doit pas savoir uniquement se battre, il doit être bon dans plusieurs domaines même si cela vous déplaît",
