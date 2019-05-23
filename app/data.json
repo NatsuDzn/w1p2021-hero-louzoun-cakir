@@ -33,11 +33,11 @@
       "actions": [
         {
           "label": "Ma fille",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Mon fils",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Ne pas répondre",
@@ -65,7 +65,7 @@
       "actions": [
         {
           "label": "Le tuer",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Négocier avec lui",
@@ -109,7 +109,7 @@
       "actions": [
         {
           "label": "Revenir en arrière",
-          "to": 1
+          "to": 2
         },
         {
           "label": "En découvrir plus sur cette tour",
@@ -165,7 +165,7 @@
       "actions": [
         {
           "label": "Abandonner",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Commencer l'épreuve",
@@ -181,7 +181,7 @@
       "actions": [
         {
           "label": "Abandonner",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Continuer malgré tout",
@@ -201,7 +201,7 @@
         },
         {
           "label": "Vous êtes mort de fatigue vos jambes ne peuvent plus bouger",
-          "to": 1
+          "to": "/lose"
         }
       ]
     },
@@ -217,7 +217,7 @@
         },
         {
           "label": "Quoi ? c'est un examen de cuisine ?",
-          "to": 1
+          "to": "/lose"
         }
       ]
     },
@@ -297,7 +297,7 @@
         },
         {
           "label": "Sauter",
-          "to": 1
+          "to": "/lose"
         }
       ]
     },
@@ -321,7 +321,7 @@
       "actions": [
         {
           "label": "Ne pas rentrer",
-          "to": 1
+          "to": "/lose"
         },
         {
           "label": "Rentrer dans la tour",
@@ -341,7 +341,7 @@
         },
         {
           "label": "Vous trouvez un petit détail dans un coin de la salle",
-          "to": 1
+          "to": "/lose"
         }
       ]
     },
