@@ -3,7 +3,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   &__video {
@@ -27,6 +27,7 @@
     font-size: 48px;
     font-weight: bolder;
     text-transform: uppercase;
+    margin-top: 85px;
 
     &:before {
       content: "X";
@@ -74,6 +75,7 @@
   &__nextstep {
     font-size: 20px;
     padding: 25px;
+    margin-bottom: 55px;
     margin-left: 15px;
     background: #fa4002;
     border-radius: 5px;
