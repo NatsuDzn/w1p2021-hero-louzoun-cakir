@@ -1,7 +1,8 @@
 <template>
   <div class="game_buttons">
   <router-link to="/">
-    <div class="game__backHome"><img src="../assets/images/icons/home.svg" /></div>
+    <div class="game__backHome"><img src="../assets/images/icons/home.svg" />
+    </div>
   </router-link>
   <div class="game__mute" onclick="document.getElementById('music').pause()"><img src="../assets/images/icons/volume_off.svg" /></div>
   <div class="game__unmute" onclick="document.getElementById('music').play()"><img src="../assets/images/icons/volume_on.svg" /></div>
@@ -39,7 +40,7 @@
                   const stepCountNub = data.steps.find(
                       s => s.id === parseInt(this.$route.params.id)
                   );
-                  stepCountService.count(stepCountNub.id);
+                  CountService.count(CountNub.id);
               },
       },
       watch: {
@@ -49,4 +50,5 @@
           }
       }
   };
+  
 </script>
