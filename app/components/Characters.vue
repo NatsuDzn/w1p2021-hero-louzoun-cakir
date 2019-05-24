@@ -27,7 +27,7 @@
     methods: {
       registerName() {
         localStorage.setItem('playerName', this.name)
-        window.location.href = 'http://localhost:1234/intro'
+        window.location.href = '/intro'
       }
     }
   };
