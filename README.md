@@ -27,7 +27,7 @@ URL du site : https://w1p2021-hero-louzoun-cakir.netlify.com/
 | Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | ⚠️ |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | ⚠️ |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. Lorsque vous sélectionnez Kirua (le personnage gris) vous sautez quelques étapes de l'introduction | ✅ |
-| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | ⚠️ |
+| État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** Selon le personnage il y'a des étapes qui saute comme l'intro ou les deux premières étapes | ✅ |
 | État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Indiquez ici comment succintement.** | ⚠️ |
 | État | Au moins un service (classe de type `GameService`) est utilisé | ✅ |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | ✅ |
