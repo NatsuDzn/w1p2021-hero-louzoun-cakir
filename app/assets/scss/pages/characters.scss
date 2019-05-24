@@ -20,3 +20,13 @@
     transform: scale(0.45);
   }
 }
+
+.name {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user {
+  transform: scale(0.5);
+}
