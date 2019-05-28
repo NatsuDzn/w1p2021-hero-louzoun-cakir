@@ -2,7 +2,7 @@
 <div>
 <h1 class="home__text">Choisir votre personnage</h1>
   <div class="wrapper">
-    <router-link to="/game/1">
+    <router-link to="/intro">
       <img class="sprites" src="../assets/images/sprites/Gon.png">
     </router-link>
     <router-link to="/game/3">
